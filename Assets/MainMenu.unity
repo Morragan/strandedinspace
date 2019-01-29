@@ -1315,6 +1315,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5677380811011837579, guid: 4feca11b79d77dc4785bb96177f85468,
+        type: 3}
+      propertyPath: sounds.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5677380811011837579, guid: 4feca11b79d77dc4785bb96177f85468,
+        type: 3}
+      propertyPath: sounds.Array.data[10].name
+      value: DARKKMANE
+      objectReference: {fileID: 0}
+    - target: {fileID: 5677380811011837579, guid: 4feca11b79d77dc4785bb96177f85468,
+        type: 3}
+      propertyPath: sounds.Array.data[10].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 37f3788f337a7424e99f608d401bd6df, type: 3}
+    - target: {fileID: 5677380811011837579, guid: 4feca11b79d77dc4785bb96177f85468,
+        type: 3}
+      propertyPath: sounds.Array.data[10].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5677380811011837579, guid: 4feca11b79d77dc4785bb96177f85468,
+        type: 3}
+      propertyPath: sounds.Array.data[10].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5677380811011837579, guid: 4feca11b79d77dc4785bb96177f85468,
+        type: 3}
+      propertyPath: sounds.Array.data[10].volumeVariance
+      value: 0.025
+      objectReference: {fileID: 0}
+    - target: {fileID: 5677380811011837579, guid: 4feca11b79d77dc4785bb96177f85468,
+        type: 3}
+      propertyPath: sounds.Array.data[10].pitchVariance
+      value: 0.025
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4feca11b79d77dc4785bb96177f85468, type: 3}
 --- !u!1001 &5536704170284478350

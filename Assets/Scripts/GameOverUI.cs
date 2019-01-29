@@ -4,6 +4,8 @@ using UnityEngine;
 public class GameOverUI : MonoBehaviour
 {
     public string mousePressSoundName = "ButtonPress";
+    [SerializeField]
+    string sceneToLoad;
 
     AudioManager audioManager;
 
@@ -28,7 +30,14 @@ public class GameOverUI : MonoBehaviour
     public void OnMousePress()
     {
         if (audioManager == null) audioManager = AudioManager.instance;
-        audioManager.PlaySound(mousePressSoundName);
+        audioManager.PlaySound(mousePressSoundName); if (Application.CanStreamedLevelBeLoaded(sceneToLoad))
+        {
+            SceneManager.LoadScene(sceneToLoad);
+        }
+        else
+        {
+            Debug.LogError("Scene \"" + sceneToLoad + "\" does not exist!");
+        }
     }
 
 }
